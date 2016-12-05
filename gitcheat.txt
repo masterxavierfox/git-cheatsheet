@@ -1,0 +1,10 @@
+
+$ git clone will give you the whole repository.
+
+After the clone, you can list the tags with $ git tag -l and then checkout a specific tag:
+
+$ git checkout tags/<tag_name>
+
+Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag):
+
+$ git checkout tags/<tag_name> -b <branch_name>
